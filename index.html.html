@@ -3,127 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title> Mon premier site</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            font-family: 'Montserrat', Arial, sans-serif;
-            background: linear-gradient(135deg, #e0e7ff 0%, #a5b4fc 100%);
-            color: #222;
-        }
-        body {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #312e81;
-            color: #fff;
-            padding: 24px 40px 16px 40px;
-            box-shadow: 0 2px 8px rgba(49,46,129,0.08);
-        }
-        .header h1 {
-            margin: 0;
-            font-size: 2.2rem;
-            font-weight: 700;
-            letter-spacing: 2px;
-        }
-        .header .nav-link {
-            color: #fff;
-            background: #6366f1;
-            padding: 10px 24px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
-            transition: background 0.2s;
-        }
-        .header .nav-link:hover {
-            background: #4338ca;
-        }
-        main {
-            flex: 1;
-            max-width: 900px;
-            margin: 32px auto 0 auto;
-            background: #fff;
-            border-radius: 18px;
-            box-shadow: 0 4px 24px rgba(49,46,129,0.10);
-            padding: 32px 40px 24px 40px;
-        }
-        .github-link {
-            display: inline-block;
-            margin: 12px 0 24px 0;
-            padding: 8px 20px;
-            background: #6366f1;
-            color: #fff;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: background 0.2s;
-        }
-        .github-link:hover {
-            background: #4338ca;
-        }
-        h2 {
-            color: #312e81;
-            margin-top: 0;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        ul li {
-            margin-bottom: 6px;
-        }
-        .cv-section {
-            text-align: center;
-            margin: 32px 0 40px 0;
-        }
-        .cv-section img {
-            display: inline-block;
-            max-width: 220px;
-            width: 100%;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(49,46,129,0.10);
-            border: 3px solid #6366f1;
-        }
-        .stages-section {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 32px;
-            margin: 40px 0 0 0;
-        }
-        .stages-section img {
-            width: 320px;
-            max-width: 45%;
-            height: auto;
-            object-fit: cover;
-            border-radius: 16px;
-            box-shadow: 0 2px 12px rgba(49,46,129,0.10);
-            border: 2px solid #a5b4fc;
-        }
-        footer {
-            margin-top: auto;
-            background: #312e81;
-            color: #fff;
-            padding: 18px 0 10px 0;
-            text-align: center;
-            font-size: 1.1rem;
-            box-shadow: 0 -1px 8px rgba(49,46,129,0.06);
-            letter-spacing: 1px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="header">
         <h1>Bienvenue sur mon site</h1>
         <nav style="display: flex; gap: 16px;">
+            <a class="nav-link" href="index.html.html">Accueil</a>
             <a class="nav-link" href="Projet.html">Projets</a>
             <a class="nav-link" href="Veille.html">Veille</a>
             <a class="nav-link" href="Stages.html">Stages</a>
@@ -133,7 +19,6 @@
     </div>
     <main>
         <p style="font-size:1.15rem; color:#444; margin-top:0;">Ceci est mon premier paragraphe en HTML</p>
-        <a class="github-link" href="https://www.github.com/Yannchbd" target="_blank">Visitez mon GitHub</a>
         <h2>Mes compétences</h2>
         <ul>
             <li>HTML</li>

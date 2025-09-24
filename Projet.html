@@ -3,120 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Mes Projets</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            font-family: 'Montserrat', Arial, sans-serif;
-            background: linear-gradient(135deg, #e0e7ff 0%, #a5b4fc 100%);
-            color: #222;
-        }
-        body {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #312e81;
-            color: #fff;
-            padding: 24px 40px 16px 40px;
-            box-shadow: 0 2px 8px rgba(49,46,129,0.08);
-        }
-        .header h1 {
-            margin: 0;
-            font-size: 2.2rem;
-            font-weight: 700;
-            letter-spacing: 2px;
-        }
-        .header .nav-link {
-            color: #fff;
-            background: #6366f1;
-            padding: 10px 24px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
-            transition: background 0.2s;
-        }
-        .header .nav-link:hover {
-            background: #4338ca;
-        }
-        main {
-            flex: 1;
-            max-width: 900px;
-            margin: 32px auto 0 auto;
-            background: #fff;
-            border-radius: 18px;
-            box-shadow: 0 4px 24px rgba(49,46,129,0.10);
-            padding: 32px 40px 24px 40px;
-        }
-        .projects-section {
-            display: flex;
-            justify-content: center;
-            gap: 60px;
-            margin: 40px 0;
-            align-items: flex-start;
-        }
-        .project-card {
-            text-align: center;
-        }
-        .project-card img {
-            width: 260px;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(49,46,129,0.10);
-            border: 2px solid #a5b4fc;
-        }
-        .project-title {
-            margin: 16px 0 8px 0;
-            font-size: 1.15rem;
-            color: #312e81;
-            font-weight: 600;
-        }
-        .project-link {
-            display: inline-block;
-            margin-top: 8px;
-            padding: 8px 18px;
-            background: #6366f1;
-            color: #fff;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: background 0.2s;
-        }
-        .project-link:hover {
-            background: #4338ca;
-        }
-        .back-link {
-            display: inline-block;
-            margin: 32px auto 0 auto;
-            color: #312e81;
-            text-decoration: underline;
-            font-weight: 500;
-            font-size: 1.1rem;
-        }
-        footer {
-            margin-top: auto;
-            background: #312e81;
-            color: #fff;
-            padding: 18px 0 10px 0;
-            text-align: center;
-            font-size: 1.1rem;
-            box-shadow: 0 -1px 8px rgba(49,46,129,0.06);
-            letter-spacing: 1px;
-        }
-    </style>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
     <div class="header">
         <h1>Mes Projets</h1>
         <nav style="display: flex; gap: 16px;">
             <a class="nav-link" href="index.html.html">Accueil</a>
+            <a class="nav-link" href="Projet.html">Projets</a>
             <a class="nav-link" href="Veille.html">Veille</a>
             <a class="nav-link" href="Stages.html">Stages</a>
             <a class="nav-link" href="Contact.html">Contact</a>
@@ -128,12 +22,10 @@
             <div class="project-card">
                 <img src="IMG/projet1.jpg" alt="Projet 1">
                 <div class="project-title">Projet 1</div>
-                <a class="project-link" href="#projet1">Voir plus</a>
             </div>
             <div class="project-card">
                 <img src="IMG/projet2.jpg" alt="Projet 2">
                 <div class="project-title">Projet 2</div>
-                <a class="project-link" href="#projet2">Voir plus</a>
             </div>
         </div>
         <a class="back-link" href="index.html.html">← Retour à l'accueil</a>
